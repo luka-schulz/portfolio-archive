@@ -1,0 +1,91 @@
+/*MAIN CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+body {
+   font: 12px "Gentium Basic", serif;
+}
+
+header {
+/*    width: 100%;*/
+}
+
+.fixed-width {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+nav {
+    position: relative;
+    height: 30px;
+    margin: 20px 30px 0px;
+    /*  change 30px make responsive  */
+    font: 700 1.5em "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo, .about {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.about {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+/*
+main {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}*/
+
+h1 {
+    font: bold 3em "Open Sans", serif;
+    letter-spacing: .05em;
+}
+
+h2 {
+    font: bold 1em "Open Sans", serif;
+    letter-spacing: .05em;
+    color: #1f1f1f;
+}
+
+h3 {
+    font: bold 3em "Gentium Basic", serif;
+    line-height: 1.5em;
+    color: #1f1f1f;
+}
+
+h4 {
+    font: bold 1.2em "Open Sans", serif;
+    letter-spacing: .05em;
+    color: #1f1f1f;
+}
+
+p {
+    font: 500 1.5em "Gentium Basic", serif;
+    letter-spacing: .03em;
+    line-height: 1.6em;
+    color: #1f1f1f;
+}
+
+footer {
+    text-align: center;
+    margin: 100px 30px 20px;
+}
+
+.split {
+    width: 2%;
+    height: 470px;
+}

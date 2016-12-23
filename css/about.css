@@ -1,0 +1,39 @@
+.description {
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 150px);
+    width: 300px;
+}
+
+.social-media {
+    height: 1.2em;
+    margin: 50px auto;
+    font: bold 1.2em "Open Sans", serif;
+    letter-spacing: .05em;
+}
+
+.resume a, .instagram a, .lists a {
+    float: left;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.resume:hover a {
+    color: #ff003d;
+}
+
+.lists:hover a {
+    color: #005cff;
+}
+
+.instagram:hover a {
+    font: bold 1em "Open Sans", serif;
+    background: #4d30f2; /* Old browsers */
+    background: -moz-linear-gradient(left, #4d30f2 0%, #c300ff 31%, #f47e00 69%, #ffff00 110%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #4d30f2 0%,#c300ff 31%,#f47e00 69%,#ffff00 110%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #4d30f2 0%,#c300ff 31%,#f47e00 69%,#ffff00 110%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d30f2', endColorstr='#ffff00',GradientType=1 ); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

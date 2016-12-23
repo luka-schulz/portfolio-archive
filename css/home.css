@@ -1,0 +1,48 @@
+.grid {
+    margin: 50px 30px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    /*  change 30px make responsive  */
+}
+
+
+.black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .2s linear;
+    text-align: center;
+}
+
+.black:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.black .description {
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+}
+
+.black .description h1, .black .description p {
+    color: rgba(255, 255, 255, 0);
+    transition: .2s linear; 
+}
+
+.black:hover .description h1, .black:hover .description p {
+    color: rgba(255, 255, 255, 1);
+}
+
+.project {
+    height: 470px;
+    width: calc((100%/2) - 1%);
+    margin-bottom: 2%;
+    background-repeat: repeat;
+}
+
+@media (max-width: 1000px) {
+    .project {
+        flex-basis: 100%;
+    }
+}

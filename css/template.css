@@ -1,0 +1,67 @@
+.hero {
+    margin: 50px 30px 100px;
+    height: 400px;
+    background: url(/images/project_06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pull-quote {
+    margin: auto 30px;
+    text-align: center;
+}
+
+.pull-quote h3 {
+    margin: 0px auto 100px;
+    width: 600px;
+}
+
+.intro {
+    margin: 0px 30px 120px;
+}
+
+.overview {
+    margin-bottom: 30px;
+}
+
+.split-text-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+}
+
+.left-text {
+    width: calc(200%/3);
+}
+
+.right-text {
+    width: calc(100%/3);
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.right-text h4 {
+    color: #8b8c91;
+}
+
+.right-text p {
+    color: #8b8c91;
+}
+
+.two-image-split{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 30px;
+}
+
+.two-one {
+    width: 49%;;
+    height: 470px;
+    background-color: darkgrey;
+}
+
+.two-two {
+    width: 49%;
+    height: 470px;
+    background-color: darkgrey;
+}
