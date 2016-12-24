@@ -1,8 +1,8 @@
 .description {
+    width: 300px;
     position: absolute;
     top: 30%;
     left: calc(50% - 150px);
-    width: 300px;
 }
 
 .social-media {
@@ -15,8 +15,9 @@
 .resume a, .instagram a, .lists a {
     float: left;
     margin-right: 30px;
-    color: black;
+    color: #1f1f1f;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
 }
 
 .resume:hover a {
