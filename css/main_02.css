@@ -1,0 +1,121 @@
+/* // MAIN CSS //*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    font: 12px "Gentium Basic", serif;
+}
+
+.fixed-width {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.margin-buffer {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+nav {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    font: 700 1.5em "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo, .about {
+    text-decoration: none;
+    color: #1f1f1f;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff003d;
+}
+
+.about {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.grid {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.grid-object {
+    height: 470px;
+    width: calc((100%/2) - 1%);
+    margin-bottom: 2%;
+}
+
+.split {
+    width: 2%;
+    height: 470px;
+}
+
+footer {
+    text-align: center;
+    margin: 100px 30px 20px;
+}
+
+
+
+
+
+/* // TYPOGRAPHICAL TREATMENT //*/
+
+h1 {
+    font: bold 3em "Open Sans", serif;
+    letter-spacing: .05em;
+    color: #1f1f1f;
+}
+
+h2 {
+    font: bold 1em "Open Sans", serif;
+    letter-spacing: .05em;
+    color: #1f1f1f;
+}
+
+h3 {
+    font: bold 3em "Gentium Basic", serif;
+    line-height: 1.5em;
+    color: #1f1f1f;
+}
+
+h4 {
+    font: bold 1.2em "Open Sans", serif;
+    letter-spacing: .05em;
+    color: #1f1f1f;
+}
+
+p {
+    font: 500 1.5em "Gentium Basic", serif;
+    letter-spacing: .03em;
+    line-height: 1.6em;
+    color: #1f1f1f;
+}
+
+
+
+
+
+/* // RESPONSIVE CSS //*/
+
+@media (max-width: 1000px) {
+    .grid-object {
+        flex-basis: 100%;
+    }
+}

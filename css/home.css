@@ -1,48 +1,84 @@
-.grid {
-    margin: 50px 30px;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    /*  change 30px make responsive  */
-}
-
-
 .black {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
-    transition: .2s linear;
     text-align: center;
+    transition: .2s linear;
 }
 
 .black:hover {
     background: rgba(0, 0, 0, .5);
 }
 
-.black .description {
-    position: relative;
-    top: 200px;
+.description {
+    height: 470px;
+    display: block;
     text-decoration: none;
 }
 
 .black .description h1, .black .description p {
+    position: relative;
+    top: 200px;
     color: rgba(255, 255, 255, 0);
     transition: .2s linear; 
 }
 
+.black .description h1 {
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -moz-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -o-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.black .description p {
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -moz-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -o-transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.black:hover .description h1{
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.15s;
+    -moz-transition-delay: 0.15s;
+    -o-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.black:hover .description p {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.275s;
+    -moz-transition-delay: 0.275s;
+    -o-transition-delay: 0.275s;
+    transition-delay: 0.275s;
+}
+
 .black:hover .description h1, .black:hover .description p {
     color: rgba(255, 255, 255, 1);
-}
-
-.project {
-    height: 470px;
-    width: calc((100%/2) - 1%);
-    margin-bottom: 2%;
-    background-repeat: repeat;
-}
-
-@media (max-width: 1000px) {
-    .project {
-        flex-basis: 100%;
-    }
 }
