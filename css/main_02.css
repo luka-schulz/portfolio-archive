@@ -122,6 +122,7 @@ p {
 /* // TEMPLATE ELEMENTS //*/
 
 .banner {
+    background-color: black;
     margin-bottom: 30px;
     height: 400px;
 }
