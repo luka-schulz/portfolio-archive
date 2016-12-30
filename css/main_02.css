@@ -85,20 +85,20 @@ h4 {
     color: #1f1f1f;
 }
 
-p {
+p, ul {
     font: 500 1.5em "Gentium Basic", serif;
     letter-spacing: .03em;
     line-height: 1.6em;
     color: #1f1f1f;
 }
 
-p a {
+p a, li a {
     text-decoration: none;
     color: #1f1f1f;
     transition: all 0.1s ease-in-out;
 }
 
-p a.underline:hover {
+p a.underline:hover, li a.underline:hover {
 /*    color: #ff003d;*/
     text-decoration: underline;
 }
@@ -171,7 +171,7 @@ p a.underline:hover {
     height: 100%;
 }
 
-.infographic {
+.infographic, .art {
     width: 100%;
     margin-bottom: 50px;
     height: 100%;
