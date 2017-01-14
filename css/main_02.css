@@ -365,3 +365,18 @@ p a.underline:hover, li a.underline:hover {
         flex-basis: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    body {
+    font: 9px "Gentium Basic", serif;
+    }
+    
+    .margin-buffer {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    .grid-object {
+    height: 300px;
+    }
+}
