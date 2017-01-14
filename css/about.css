@@ -20,15 +20,15 @@
     transition: all 0.1s ease-in-out;
 }
 
-.resume:hover a {
+.resume:hover a, .resume:focus a {
     color: #ff003d;
 }
 
-.lists:hover a {
+.lists:hover a, .lists:focus a {
     color: #005cff;
 }
 
-.instagram:hover a {
+.instagram:hover a, .instagram:focus a {
     font: bold 1em "Open Sans", serif;
     background: #4d30f2; /* Old browsers */
     background: -moz-linear-gradient(left, #4d30f2 0%, #c300ff 31%, #f47e00 69%, #ffff00 110%); /* FF3.6-15 */

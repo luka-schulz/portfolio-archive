@@ -6,7 +6,7 @@
     transition: .2s linear;
 }
 
-.black:hover {
+.black:hover, .black:focus {
     background: rgba(0, 0, 0, .5);
 }
 
@@ -55,7 +55,7 @@
     transition-delay: 0s;
 }
 
-.black:hover .description h1{
+.black:hover .description h1, .black:focus .description h1{
     -webkit-transform: translateY(0%);
     -moz-transform: translateY(0%);
     -ms-transform: translateY(0%);
@@ -67,7 +67,7 @@
     transition-delay: 0.15s;
 }
 
-.black:hover .description p {
+.black:hover .description p, .black:focus .description p {
     -webkit-transform: translateY(0%);
     -moz-transform: translateY(0%);
     -ms-transform: translateY(0%);
@@ -79,7 +79,7 @@
     transition-delay: 0.275s;
 }
 
-.black:hover .description h1, .black:hover .description p {
+.black:hover .description h1, .black:hover .description p, .black:focus .description h1, .black:focus .description p {
     color: rgba(255, 255, 255, 1);
 }
 
