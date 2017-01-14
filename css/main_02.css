@@ -217,15 +217,15 @@ p a.underline:hover, li a.underline:hover {
 }
 
 .img-container {
-    max-width: 1000px; !important
-    max-height: 427px; !important
+    max-width: 1000px;
+    max-height: 427px;
     overflow: hidden;
     margin-bottom: 50px;
 }
 
 .img-container-object {
-    width: 100%; !important
-    height: 100%; !important
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
