@@ -217,15 +217,15 @@ p a.underline:hover, li a.underline:hover {
 }
 
 .img-container {
-    max-width: 1000px;
-    max-height: 427px;
+    max-width: 1000px; !important
+    max-height: 427px; !important
     overflow: hidden;
     margin-bottom: 50px;
 }
 
 .img-container-object {
-    width: 100%;
-    height: 100%;
+    width: 100%; !important
+    height: 100%; !important
     position: relative;
 }
 
@@ -241,7 +241,6 @@ p a.underline:hover, li a.underline:hover {
     left: calc(50% - 100px);
     text-decoration: none;
     text-align: center;
-    cursor: pointer; !important
 }
 
 .button p {
