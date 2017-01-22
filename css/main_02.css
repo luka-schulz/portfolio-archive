@@ -256,7 +256,7 @@ p a.underline:hover, li a.underline:hover, p a.underline:focus, li a.underline:f
     transition: 0.1s background-color linear, 0.1s color linear;
 }
 
-.button:hover p, .button:focus p {
+.button:hover p, .button:active p {
     background-color: #1f1f1f;
     color: #fff;
 }
